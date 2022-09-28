@@ -21,7 +21,7 @@ public class SaveInFile {
     
     public static String saveUserRecord(String username, String lastname, String email) throws SQLException, IOException
     {
-        System.out.println("Will save in file next")
+        System.out.println("Will save in file next time");
         String path = "";
         
         Calendar calendar = Calendar.getInstance();
